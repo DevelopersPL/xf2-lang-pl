@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Polski (PL)" date_format="j F Y" time_format="H:i" currency_format="{symbol}{value}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="pl-PL" text_direction="LTR" base_version_id="2010571" export_version="2">
+<language title="Polski (PL)" date_format="j F Y" time_format="H:i" currency_format="{symbol}{value}" week_start="1" decimal_point="," thousands_separator=" " label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="pl-PL" text_direction="LTR" addon_id="XF" base_version_id="2010770" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="2010170" version_string="2.1.1"><![CDATA[dzień temu]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="2010170" version_string="2.1.1"><![CDATA[miesiąc temu]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[1 raz]]></phrase>
@@ -261,7 +261,7 @@ W przypadku, gdy wybrany prefix jest niedostępny dla niektórych z zaznaczonych
   <phrase title="background_position_x" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Background Position X]]></phrase>
   <phrase title="background_position_y" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Background Position Y]]></phrase>
   <phrase title="backup_code" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Backup Code]]></phrase>
-  <phrase title="backup_codes_used_once_secure_location" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Each of these codes can be used once in case you don't have access to other means of verification. These codes should be saved in a secure location.]]></phrase>
+  <phrase title="backup_codes_used_once_secure_location" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Każdy z tych kodów może być użyty jednorazowo w przypadku, gdy nie masz dostępu do innych środków weryfikacji. Kody te powinny być zapisane w bezpiecznym miejscu.]]></phrase>
   <phrase title="ban" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Ban]]></phrase>
   <phrase title="ban_ends" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Ban Ends]]></phrase>
   <phrase title="ban_length" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Długość Blokady]]></phrase>
@@ -422,7 +422,7 @@ This is [SIZE=1]small[/SIZE] and [SIZE=7]big[/SIZE] text.]]></phrase>
   <phrase title="completion_date" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Completion Date]]></phrase>
   <phrase title="compressed" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Compressed]]></phrase>
   <phrase title="configure_importer" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Configure Importer]]></phrase>
-  <phrase title="confirm" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Confirm]]></phrase>
+  <phrase title="confirm" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Potwierdź]]></phrase>
   <phrase title="confirm_delete_smilie_category_footnote" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Any smilies belonging to this category will be uncategorized following the deletion.]]></phrase>
   <phrase title="confirm_deletion" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Potwierdź usunięcie]]></phrase>
   <phrase title="confirm_deletion_of_x_threads" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Confirm deletion of {cound} threads]]></phrase>
@@ -432,7 +432,7 @@ This is [SIZE=1]small[/SIZE] and [SIZE=7]big[/SIZE] text.]]></phrase>
   <phrase title="confirm_lifting_of_ban" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Confirm Lifting of Ban]]></phrase>
   <phrase title="confirm_new_password" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Potwierdź Nowe Hasło]]></phrase>
   <phrase title="confirm_password" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Potwierdź Hasło]]></phrase>
-  <phrase title="confirm_regeneration" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Confirm Regeneration]]></phrase>
+  <phrase title="confirm_regeneration" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Potwierdź regenerację]]></phrase>
   <phrase title="confirm_sending_alert" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Confirm Sending Alert]]></phrase>
   <phrase title="confirm_sending_email" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Confirm Sending Email]]></phrase>
   <phrase title="confirm_sending_message" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Confirm Sending Message]]></phrase>
@@ -610,14 +610,14 @@ This is [SIZE=1]small[/SIZE] and [SIZE=7]big[/SIZE] text.]]></phrase>
   <phrase title="details_of_warning" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Detale Ostrzeżenia]]></phrase>
   <phrase title="device_trusted_until_x_disable_desc" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[This device is currently trusted until {until}. You will not need to complete two-step verification from this device until then. You may choose to stop trusting this device so that you will be prompted to complete two-step verification when you next log in.]]></phrase>
   <phrase title="did_not_complete_the_captcha_verification_properly" addon_id="XF" version_id="0" version_string=""><![CDATA[You did not complete the CAPTCHA verification properly. Please try again.]]></phrase>
-  <phrase title="disable" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Disable]]></phrase>
+  <phrase title="disable" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Wyłącz]]></phrase>
   <phrase title="disable_alerts" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Wyłącz powiadomienia]]></phrase>
   <phrase title="disable_auto_linking" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Disable auto-linking]]></phrase>
   <phrase title="disable_email_notification" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Wyłącz powiadomienie email]]></phrase>
   <phrase title="disable_line_break_conversion" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Disable line break conversion]]></phrase>
   <phrase title="disable_smilies" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Disable smilies]]></phrase>
   <phrase title="disable_to_prevent_feed_import" addon_id="XF" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[You may disable this option to temporarily prevent entries from this feed being imported.]]></phrase>
-  <phrase title="disable_two_step_verification" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Disable Two-Step Verification]]></phrase>
+  <phrase title="disable_two_step_verification" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Wyłącz weryfikację dwuetapową]]></phrase>
   <phrase title="disabled" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Wyłączone]]></phrase>
   <phrase title="disabled_user_upgrades" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Disabled User Upgrades]]></phrase>
   <phrase title="disallowed_words_in_tags" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Disallowed words in tags]]></phrase>
@@ -730,9 +730,10 @@ If you did not request this change, please log in and change your password and e
 <br />
 Your email was changed by the IP {ip}.]]></phrase>
   <phrase title="email_changed_subject" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[{board}: Email Changed]]></phrase>
-  <phrase title="email_confirmation_code" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Email Confirmation Code]]></phrase>
+  <phrase title="email_confirmation_code" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Kod potwierdzający email]]></phrase>
   <phrase title="email_conversation_notifications" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Email conversation notifications]]></phrase>
   <phrase title="email_format" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Email Format]]></phrase>
+  <phrase title="email_has_been_sent_to_x_with_code" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Wiadomość z kodem jednorazowym została wysłana na adres <b>{email}</b>. Proszę wpisać ten kod, aby kontynuować.]]></phrase>
   <phrase title="email_invalid_bounced" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Email invalid (bounced)]]></phrase>
   <phrase title="email_list" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Email List]]></phrase>
   <phrase title="email_options" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[Opcje Email]]></phrase>
@@ -754,7 +755,7 @@ Your callback should return an HTML string, and have a signature as follows:<br 
   <phrase title="embedded_media" addon_id="XF" version_id="1030170" version_string="1.3.1"><![CDATA[Embedded Media]]></phrase>
   <phrase title="embedded_youtube_player_would_appear_here" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[An embedded YouTube player would appear here.]]></phrase>
   <phrase title="empty_values_always_allowed" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Empty values are always allowed.]]></phrase>
-  <phrase title="enable" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Enable]]></phrase>
+  <phrase title="enable" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Włącz]]></phrase>
   <phrase title="enable_alerts" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Włącz powiadomienia]]></phrase>
   <phrase title="enable_callback_execution" addon_id="XF" version_id="1000370" version_string="1.0.3"><![CDATA[Enable Callback Execution]]></phrase>
   <phrase title="enable_disable_route_filter" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Enable / Disable Route Filter]]></phrase>
@@ -767,7 +768,8 @@ Your callback should return an HTML string, and have a signature as follows:<br 
   <phrase title="enable_promotion_for_user" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Enable Promotion for User]]></phrase>
   <phrase title="enable_registration" addon_id="XF" version_id="1000370" version_string="1.0.3"><![CDATA[Enable Registration]]></phrase>
   <phrase title="enable_sprite_mode_with_following_parameters" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Enable CSS sprite mode with the following parameters:]]></phrase>
-  <phrase title="enabled" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Enabled]]></phrase>
+  <phrase title="enabled" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Włączone]]></phrase>
+  <phrase title="enabled_providers_x" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Włączona ({providers})]]></phrase>
   <phrase title="encryption" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Encryption]]></phrase>
   <phrase title="end_date" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Data Zakończenia]]></phrase>
   <phrase title="engaged_in_conversation" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Engaged in conversation]]></phrase>
@@ -805,7 +807,7 @@ Your callback should return an HTML string, and have a signature as follows:<br 
   <phrase title="export_language" addon_id="XF" version_id="1000035" version_string="1.0.0 Beta 5"><![CDATA[Export Language]]></phrase>
   <phrase title="export_style" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Export Style]]></phrase>
   <phrase title="extra" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Extra]]></phrase>
-  <phrase title="extra_copyright" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[Hosting zapewnia <a href="https://chmurka.pl">Chmurka.pl</a>.]]></phrase>
+  <phrase title="extra_copyright" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[Bujamy się w <a href="https://chmurka.pl" target="_blank" title="Chmurka.pl - Serwery najwyższych lotów">Chmurka.pl</a>.]]></phrase>
   <phrase title="extra_user_groups" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Extra User Groups]]></phrase>
   <phrase title="facebook" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Facebook]]></phrase>
   <phrase title="feed_is_active" addon_id="XF" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Feed is active]]></phrase>
@@ -889,7 +891,7 @@ Your callback should return an HTML string, and have a signature as follows:<br 
   <phrase title="future_message_handling" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Akceptacja Przyszłej Wiadomości]]></phrase>
   <phrase title="general_options" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[General Options]]></phrase>
   <phrase title="general_privacy" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[General Privacy]]></phrase>
-  <phrase title="generate_new_backup_codes" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Generate new backup codes]]></phrase>
+  <phrase title="generate_new_backup_codes" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Generuj nowe kody zapasowe]]></phrase>
   <phrase title="generated_by" addon_id="XF" version_id="1000032" version_string="1.0.0 Beta 2"><![CDATA[Generated By]]></phrase>
   <phrase title="given_by" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Ostrzeżenie nałożył]]></phrase>
   <phrase title="global_permissions" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Global Permissions]]></phrase>
@@ -955,6 +957,7 @@ Pliki cookies w <a href="http://docs.blackberry.com/en/smartphone_users/delivera
 Pliki cookies w <a href="http://support.apple.com/kb/HT1677?viewlocale=pl_PL" target="_blank">iOS (Safari)</a><br />
 Pliki cookies w <a href="http://www.windowsphone.com/pl-pl/how-to/wp7/web/changing-privacy-and-other-browser-settings" target="_blank">Windows Phone</a>
 ]]></phrase>
+  <phrase title="help_page_title.cookies" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[Polityka cookies]]></phrase>
   <phrase title="help_page_title.privacy_policy" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Polityka prywatności]]></phrase>
   <phrase title="help_page_title.terms" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Regulamin]]></phrase>
   <phrase title="help_pages" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Help Pages]]></phrase>
@@ -970,6 +973,7 @@ Pliki cookies w <a href="http://www.windowsphone.com/pl-pl/how-to/wp7/web/changi
   <phrase title="html_replacement" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[HTML Replacement]]></phrase>
   <phrase title="i_have_read_and_accept_your_privacy_policy" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Przeczytałem i akceptuję <a href="{privacyPolicyUrl}" target="_blank">politykę prywatności</a>.]]></phrase>
   <phrase title="i_have_read_and_accept_your_terms_and_rules" addon_id="XF" version_id="2010170" version_string="2.1.1"><![CDATA[Przeczytałem i akceptuję <a href="{tosUrl}" target="_blank">regulamin</a>.]]></phrase>
+  <phrase title="i_have_saved_backup_codes" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Zapisałem zapasowe kody]]></phrase>
   <phrase title="identities" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Dodatkowe konta]]></phrase>
   <phrase title="if_banner_stacking_disabled_staff_only_have_staff_banner" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[If banner stacking is disabled, staff members will only have the staff banner. If this option is enabled, they will have a staff banner and the highest priority group banner.]]></phrase>
   <phrase title="if_conflict_discovered_while_merging_no_automatic_merging" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[If a conflict is discovered while attempting to merge, no automatic merging will happen. You will need to manually resolve the conflict.]]></phrase>
@@ -1149,13 +1153,13 @@ Pliki cookies w <a href="http://www.windowsphone.com/pl-pl/how-to/wp7/web/changi
   <phrase title="log_in_or_register_to_post" addon_id="XF" version_id="2010170" version_string="2.1.1"><![CDATA[Musisz się zalogować, aby tutaj pisać.]]></phrase>
   <phrase title="log_in_or_register_to_reply" addon_id="XF" version_id="2010170" version_string="2.1.1"><![CDATA[Musisz się zalogować aby odpowiedzieć.]]></phrase>
   <phrase title="log_out" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Wyloguj]]></phrase>
-  <phrase title="logging_in_as" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Logging in as]]></phrase>
+  <phrase title="logging_in_as" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Logowanie jako]]></phrase>
   <phrase title="login_required" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Musisz być zalogowany aby dokończyć tą akcję.]]></phrase>
   <phrase title="lost_password" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Formularz odzyskiwania zapomnianego hasła]]></phrase>
   <phrase title="make_this_user_administrator" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Make this user an administrator]]></phrase>
   <phrase title="make_this_user_moderator" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Make this user a moderator]]></phrase>
   <phrase title="making_tag_permanent_prevents_it_from_being_removed" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Making a tag permanent prevents it from being removed when it is no longer in use.]]></phrase>
-  <phrase title="manage" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Manage]]></phrase>
+  <phrase title="manage" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Zarządzaj]]></phrase>
   <phrase title="manage_promoted_users" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Manage Promoted Users]]></phrase>
   <phrase title="manage_reply_bans" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Zarządzaj blokadą odpowiedzi]]></phrase>
   <phrase title="manage_watched_threads" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Manage Watched Threads]]></phrase>
@@ -1859,7 +1863,7 @@ Callback arguments:
   <phrase title="parent_version" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Parent Version]]></phrase>
   <phrase title="participants" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Uczestnicy]]></phrase>
   <phrase title="password" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Hasło]]></phrase>
-  <phrase title="password_and_security" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Hasło do konta]]></phrase>
+  <phrase title="password_and_security" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Hasło i zabezpieczenia]]></phrase>
   <phrase title="password_changed_body_html" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[{username},<br />
 <br />
 Your password at {board} was recently changed. If you made this change, you may ignore this message.<br />
@@ -1868,7 +1872,7 @@ If you did not request this change, please use the lost password process to gene
 <br />
 Your password was changed by the IP {ip}.]]></phrase>
   <phrase title="password_changed_subject" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[{board}: Password Changed]]></phrase>
-  <phrase title="password_confirmation" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Password Confirmation]]></phrase>
+  <phrase title="password_confirmation" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Potwierdzenie hasła]]></phrase>
   <phrase title="password_of_x_account_wish_to_associate_with" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[This is the password of the {board_title} account that you wish to associate with.]]></phrase>
   <phrase title="password_reset_request_has_been_emailed_to_you" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Żądanie resetowania hasła zostało wysłane do Ciebie e-mailem. Postępuj zgodnie z instrukcjami w tym e-mailu.]]></phrase>
   <phrase title="passwords_did_not_match" addon_id="XF" version_id="0" version_string=""><![CDATA[Passwords did not match. Please enter the same password in both fields.]]></phrase>
@@ -2091,6 +2095,7 @@ Your password was changed by the IP {ip}.]]></phrase>
   <phrase title="please_enter_your_google_analytics_web_property_id_in_format" addon_id="XF" version_id="1020170" version_string="1.2.1"><![CDATA[Please enter your Google Analytics web property ID / UA number in the format UA-XXXXXX-Y. See <a href="https://support.google.com/analytics/answer/1032385" target="_blank">https://support.google.com/analytics/answer/1032385</a>.]]></phrase>
   <phrase title="please_leave_this_field_blank" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Please leave this field blank.]]></phrase>
   <phrase title="please_provide_at_least_one_answer" addon_id="XF" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Please provide at least one answer.]]></phrase>
+  <phrase title="please_read_and_accept_our_terms_and_rules_before_continuing" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Aby kontynuować proszę przeczytać, a następnie zaakceptować nasze warunki i zasady.]]></phrase>
   <phrase title="please_select_a_prefix" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Please select a prefix.]]></phrase>
   <phrase title="please_select_a_valid_type_of_moderator" addon_id="XF" version_id="0" version_string=""><![CDATA[Please select a valid type of moderator.]]></phrase>
   <phrase title="please_select_at_least_one_user_group" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Please select at least one user group.]]></phrase>
@@ -2238,7 +2243,7 @@ Your password was changed by the IP {ip}.]]></phrase>
   <phrase title="registered_between" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Registered between]]></phrase>
   <phrase title="registered_feeds" addon_id="XF" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Registered Feeds]]></phrase>
   <phrase title="registered_members" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Zarejestrowani Użytkownicy]]></phrase>
-  <phrase title="registering" addon_id="XF" version_id="0" version_string=""><![CDATA[Registering]]></phrase>
+  <phrase title="registering" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[W trakcie rejestracji]]></phrase>
   <phrase title="registration_ip" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[IP Rejestracji]]></phrase>
   <phrase title="regular_expression" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Regular expression]]></phrase>
   <phrase title="regular_expression_matching" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Regular Expression Matching]]></phrase>
@@ -2597,14 +2602,10 @@ Content being reported:
   <phrase title="templates_in_this_style_can_not_be_modified" addon_id="XF" version_id="0" version_string=""><![CDATA[Templates in this style can not be modified. Please try another.]]></phrase>
   <phrase title="temporary" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Czasowa]]></phrase>
   <phrase title="terms_and_rules" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Regulamin]]></phrase>
-  <phrase title="terms_rules_text" addon_id="XF" version_id="2010052" version_string="2.1.0 Release Candidate 2"><![CDATA[<p>Rejestracja na tym forum jest darmowa! Nalegamy jednak, aby przestrzegać zasad, które poniżej zostały przedstawione. Jeśli zgadzasz sie z zasadami, zaznacz pole "Zgadzam się" i przejdź do dalszej części rejestracji.</p>
-
-<p>Nad poprawnością przestrzegania zasad będą czuwać moderatorzy.</p>
-
-<p>Wszystkie wypowiedzi wyrażają punkt widzenia użytkownika, który je piszą, zatem ani właściciel nie ponoszą żadnej odpowiedzialności za zawartość wiadomości.</p>
-
-<p>Poprzez przyjecie tych zasad gwarantujesz, ze nie będziesz umieszczał żadnych wiadomości o treści obraźliwej, wulgarnej, seksualnej, głoszącej poparcie dla przemocy i dyskryminacji, lub innej, naruszającej prawo.</p>
-
+  <phrase title="terms_rules_text" addon_id="XF" version_id="2010052" version_string="2.1.0 Release Candidate 2"><![CDATA[<p>Rejestracja na tym forum jest darmowa! Nalegamy jednak, aby przestrzegać zasad, które poniżej zostały przedstawione. Jeśli zgadzasz sie z zasadami, zaznacz pole "Zgadzam się" i przejdź do dalszej części rejestracji.</p>	  <phrase title="terms_rules_text" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[<p>Warunkiem korzystania z forum internetowego www.forumowisko.pl (zwanym dalej ,,Serwis")  oraz uzyskanie dostępu do treści w nim zawartych jest dokładne zapoznanie się z treścią niniejszego regulaminu („Regulamin”) oraz jego przestrzeganie.</p>
+<p>Nad poprawnością przestrzegania zasad będą czuwać moderatorzy.</p>	
+<p>Wszystkie wypowiedzi wyrażają punkt widzenia użytkownika, który je piszą, zatem ani właściciel nie ponoszą żadnej odpowiedzialności za zawartość wiadomości.</p>	
+<p>Poprzez przyjecie tych zasad gwarantujesz, ze nie będziesz umieszczał żadnych wiadomości o treści obraźliwej, wulgarnej, seksualnej, głoszącej poparcie dla przemocy i dyskryminacji, lub innej, naruszającej prawo.</p>	
 <p>Administratorzy i moderatorzy serwisu zastrzegają sobie prawo do usuwania, zmiany, przenoszenia lub zamykania dowolnej wiadomości lub wątku bez podania przyczyny.</p>]]></phrase>
   <phrase title="test" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Test]]></phrase>
   <phrase title="test_email_sent_to_x" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Test email sent to {email}.]]></phrase>
@@ -2617,13 +2618,20 @@ Content being reported:
   <phrase title="text_direction" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Text Direction]]></phrase>
   <phrase title="text_replacement" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Text Replacement]]></phrase>
   <phrase title="text_to_replace" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Text to Replace]]></phrase>
+  <phrase title="tfa.backup" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Kody zapasowe]]></phrase>
+  <phrase title="tfa.email" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Weryfikacja za pomocą kodu email]]></phrase>
+  <phrase title="tfa.totp" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Weryfikacja kodem przy pomocy aplikacji]]></phrase>
   <phrase title="tfa_backup_codes_login_desc" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[A backup code can be used when you don't have access to an alternative verification method. Once a backup code is used, it will no longer be usable. You will receive an email when you login using a backup code.]]></phrase>
+  <phrase title="tfa_desc.backup" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Kody te mogą być używane do logowania się, w razie braku dostępu do innych metod weryfikacji. Przechowuj te kody w bezpiecznym i pewnym miejscu.]]></phrase>
+  <phrase title="tfa_desc.email" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Ta opcja spowoduje wysłanie kodu weryfikacyjnego przez email, aby zweryfikować próbę logowania. Jesli to możliwe, wybierz inną metodę weryfikacji dwuetapowej.]]></phrase>
+  <phrase title="tfa_desc.totp" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Pozwala na wygenerowanie kodu weryfikacyjnego za pomocą aplikacji w telefonie.]]></phrase>
   <phrase title="thank_you_for_purchasing_this_upgrade" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Dziękujemy za zakup rangi specjalnej.]]></phrase>
   <phrase title="thank_you_for_reporting_this_content" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Dziękujemy za zgłoszenie treści.]]></phrase>
   <phrase title="thanks_creating_account_using_facebook_account_active" addon_id="XF" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Thanks for creating an account using Facebook. Your account is now fully active.]]></phrase>
   <phrase title="thanks_for_registering_complete" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[Dziękujemy. Rejestracja ukończona.]]></phrase>
   <phrase title="thanks_for_registering_registration_must_be_approved" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Thanks for registering. Your registration must now be approved by an administrator. You will receive an email when a decision has been taken.]]></phrase>
   <phrase title="thanks_for_registering_to_complete_registration_follow_link" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Dziękujemy za rejestrację. W celu zakończenia rejestracji, należy kliknąć link w mailu, który do Ciebie wysłaliśmy.]]></phrase>
+  <phrase title="the_chosen_password_could_be_stronger" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Wybrane hasło mogłoby być silniejsze.]]></phrase>
   <phrase title="the_following_reason_was_given" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[The following reason was given:]]></phrase>
   <phrase title="the_following_recipients_could_not_be_found_x" addon_id="XF" version_id="0" version_string=""><![CDATA[The following recipients could not be found: {names}.]]></phrase>
   <phrase title="the_uploaded_file_was_not_an_image_as_expected" addon_id="XF" version_id="1010470" version_string="1.1.4"><![CDATA[The uploaded file was not an image as expected.]]></phrase>
@@ -2688,7 +2696,7 @@ Error message: <span class="exceptionMessage">{message}</span>]]></phrase>
   <phrase title="this_will_be_used_to_identify_media_site_to_load_in_bb_code" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[This will be used to identify the media site to load in the BB code.]]></phrase>
   <phrase title="this_will_be_visible_to_anyone_who_can_see_content_for_warning" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Ten tekst będzie widoczny dla każdego.]]></phrase>
   <phrase title="this_will_clean_up_permission_combinations_no_longer_in_use" addon_id="XF" version_id="1020034" version_string="1.2.0 Beta 4"><![CDATA[This will clean up any permission combinations which are no longer in use. This can speed up permission update and rebuild operations and remove unused data from the database.]]></phrase>
-  <phrase title="this_will_generate_new_backup_codes" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[This will generate new backup codes. All previous backup codes will no longer work.]]></phrase>
+  <phrase title="this_will_generate_new_backup_codes" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[To spowoduje wygenerowanie nowych kodów zapasowych. Wszystkie poprzednie kody zapasowe nie będą już działać.]]></phrase>
   <phrase title="this_will_not_be_shown_to_member_receiving_warning" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[To nie będzie wyświetlone użytkownikowi, który dostaje ostrzeżenie.]]></phrase>
   <phrase title="this_will_not_remove_any_content_this_user_has_already_created" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[This will not remove any content this user has already created.]]></phrase>
   <phrase title="this_would_ban_all_email_addresses" addon_id="XF" version_id="0" version_string=""><![CDATA[This would ban all email addresses.]]></phrase>
@@ -2711,7 +2719,7 @@ Error message: <span class="exceptionMessage">{message}</span>]]></phrase>
   <phrase title="title" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Tytuł]]></phrase>
   <phrase title="title_contains" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Title Contains]]></phrase>
   <phrase title="title_template" addon_id="XF" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Title Template]]></phrase>
-  <phrase title="to_access_this_page_you_must_first_confirm_your_password" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[To access this page, you must first confirm your password.]]></phrase>
+  <phrase title="to_access_this_page_you_must_first_confirm_your_password" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Aby uzyskać dostęp do tej strony, musisz najpierw potwierdzić swoje hasło.]]></phrase>
   <phrase title="to_associate_existing_account_first_log_in" addon_id="XF" version_id="1050370" version_string="1.5.3"><![CDATA[To associate with an existing account, you must first log into that account.]]></phrase>
   <phrase title="today_at_x" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Dzisiaj o {time}]]></phrase>
   <phrase title="toggle_multi_quote_tooltip" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Toggle Multi-Quote]]></phrase>
@@ -2738,8 +2746,8 @@ Error message: <span class="exceptionMessage">{message}</span>]]></phrase>
   <phrase title="trophy_options" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Trophy Options]]></phrase>
   <phrase title="trophy_points" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Punkty za osiągnięcia]]></phrase>
   <phrase title="trophy_points_between" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Trophy points between]]></phrase>
-  <phrase title="trust_device_desc" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[If selected, you will not need to complete two-step verification from this device for the next 30 days.]]></phrase>
-  <phrase title="trust_this_device_for_30_days" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Trust this device for 30 days]]></phrase>
+  <phrase title="trust_device_desc" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[W przypadku wybrania tej opcji nie będzie konieczne przeprowadzanie dwuetapowej weryfikacji z tego urządzenia przez następne 30 dni.]]></phrase>
+  <phrase title="trust_this_device_for_30_days" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Ufaj temu urządzeniu przez 30 dni]]></phrase>
   <phrase title="trusted_devices" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Trusted Devices]]></phrase>
   <phrase title="two_step_backup_body_html" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[{username},<br />
 <br />
@@ -2747,18 +2755,19 @@ You recently logged into your account at {board} and completed two-step verifica
 <br />
 The login was requested via the IP {ip}. If you did not initiate this request, you should change your password urgently.]]></phrase>
   <phrase title="two_step_backup_subject" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[{board}: Login via Backup Code]]></phrase>
-  <phrase title="two_step_email_body_html1" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[{username},<br />
-<br />
-To complete the login to your account (or to complete two-step verification setup) at {board}, you must enter the following code:]]></phrase>
-  <phrase title="two_step_email_body_html2" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[This code is valid for 15 minutes.<br />
-<br />
-The login was requested via the IP {ip}. If you did not initiate this request, you should change your password urgently.]]></phrase>
-  <phrase title="two_step_email_subject" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[{board}: Login Verification]]></phrase>
+  <phrase title="two_step_email_body_html1" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[<p>{username},</p>
+<p>aby zakończyć logowanie do swojego konta (lub zakończyć konfigurację weryfikacji dwuetapowej) na {board}, musisz wprowadzić następujący kod:</p>]]></phrase>
+  <phrase title="two_step_email_body_html2" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[<p>Ten kod jest ważny przez 15 minut.</p>
+
+<p>Logowanie zostało zainicjowane z adresu IP {ip}. Jeśli nie zainicjowałeś tej prośby, powinieneś pilnie zmienić swoje hasło.</p>]]></phrase>
+  <phrase title="two_step_email_subject" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[{board} - Weryfikacja logowania]]></phrase>
   <phrase title="two_step_verification" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Weryfikacja dwuetapowa]]></phrase>
-  <phrase title="two_step_verification_desc" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Two-step verification increases the security of your account by requiring you to provide an additional code to complete the login process. If your password is ever compromised, this verification will help prevent unauthorized access to your account.]]></phrase>
+  <phrase title="two_step_verification_backup_codes" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Kody zapasowe weryfikacji dwuetapowej]]></phrase>
+  <phrase title="two_step_verification_backup_codes_have_automatically_been_generated" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Kody zapasowe weryfikacji dwuetapowej zostały wygenerowane automatycznie. Każdy z tych kodów może być użyty raz, w razie braku dostępu do innych środków weryfikacji. Kody te powinny być zapisane w bezpiecznym miejscu.]]></phrase>
+  <phrase title="two_step_verification_desc" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Weryfikacja dwuetapowa zwiększa bezpieczeństwo Twojego konta, wymagając podania dodatkowego kodu do zakończenia procesu logowania. Jeśli Twoje hasło będzie kiedykolwiek zagrożone, weryfikacja ta pomoże zapobiec nieautoryzowanemu dostępowi do Twojego konta.]]></phrase>
   <phrase title="two_step_verification_enabled" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Weryfikacja dwuetapowa]]></phrase>
-  <phrase title="two_step_verification_required" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Two-Step Verification Required]]></phrase>
-  <phrase title="two_step_verification_setup" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Two-Step Verification Setup]]></phrase>
+  <phrase title="two_step_verification_required" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Wymagana weryfikacja dwuetapowa]]></phrase>
+  <phrase title="two_step_verification_setup" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Konfiguracja weryfikacji dwuetapowej]]></phrase>
   <phrase title="two_step_verification_value_could_not_be_confirmed" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[The two-step verification value could not be confirmed. Please try again.]]></phrase>
   <phrase title="type" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Type]]></phrase>
   <phrase title="type_of_moderator" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Type of Moderator]]></phrase>
@@ -3010,7 +3019,7 @@ The login was requested via the IP {ip}. If you did not initiate this request, y
   <phrase title="value_match_requirements" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Value Match Requirements]]></phrase>
   <phrase title="value_represents_internal_value_for_choice_text_is_displayed" addon_id="XF" version_id="1020270" version_string="1.2.2"><![CDATA[The value represents the internal value for the choice. The text field is shown when the field is displayed. You should not change the value field if any users have selected that choice; if you do, users will lose their selection.]]></phrase>
   <phrase title="verification" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Weryfikacja obrazka]]></phrase>
-  <phrase title="verification_backup_codes_automatically_generated" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Verification backup codes have automatically been generated. Each of these codes can be used once in case you don't have access to other means of verification. These codes should be saved in a secure location.]]></phrase>
+  <phrase title="verification_backup_codes_automatically_generated" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Kody weryfikacyjne kopii zapasowej zostały wygenerowane automatycznie. Każdy z tych kodów może być użyty jednorazowo w przypadku, gdy nie masz dostępu do innych środków weryfikacji. Kody te powinny być zapisane w bezpiecznym miejscu.]]></phrase>
   <phrase title="verification_code" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Verification Code]]></phrase>
   <phrase title="verification_key" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Verification Key]]></phrase>
   <phrase title="version_comparison" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Version Comparison]]></phrase>
@@ -3040,7 +3049,7 @@ The login was requested via the IP {ip}. If you did not initiate this request, y
   <phrase title="view_this_users_profile_page_details" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[View this user's profile page details]]></phrase>
   <phrase title="view_users" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[View Users]]></phrase>
   <phrase title="view_warning" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Pokaż Ostrzeżenie]]></phrase>
-  <phrase title="view_your_backup_codes" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[View your backup codes.]]></phrase>
+  <phrase title="view_your_backup_codes" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Zobacz swoje kody zapasowe.]]></phrase>
   <phrase title="view_your_details_on_your_profile_page" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Kto może zobaczyć Twoją stronę profilową]]></phrase>
   <phrase title="view_your_identities" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Kto może zobaczyć Twoje dane kontaktowe]]></phrase>
   <phrase title="viewable_in_message_user_info" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Viewable in message user info]]></phrase>
@@ -3060,7 +3069,7 @@ The login was requested via the IP {ip}. If you did not initiate this request, y
   <phrase title="views" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Wyświetleń]]></phrase>
   <phrase title="visibility" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Visibility]]></phrase>
   <phrase title="visible" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Widoczny]]></phrase>
-  <phrase title="visit_board_html" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[<a href="{board_url}">Wejdź {board_title}</a>]]></phrase>
+  <phrase title="visit_board_html" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[<a href="{board_url}">Odwiedź {board_title}</a>]]></phrase>
   <phrase title="visit_site" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Visit Site]]></phrase>
   <phrase title="visits_in_last_hour_may_not_be_considered" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Visits in the last hour may not be considered.]]></phrase>
   <phrase title="warn" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Ostrzeżenie]]></phrase>
@@ -3196,7 +3205,10 @@ The login was requested via the IP {ip}. If you did not initiate this request, y
   <phrase title="you_may_use_xenforo_template_syntax_here" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[You may use XenForo template syntax here.]]></phrase>
   <phrase title="you_must_be_super_admin_to_access_this_page" addon_id="XF" version_id="1000013" version_string="1.0.0 Alpha 3"><![CDATA[You must be a super administrator to access this page. This can be configured in the file library/config.php.]]></phrase>
   <phrase title="you_must_be_super_administrator_to_edit_user" addon_id="XF" version_id="1000051" version_string="1.0.0 Release Candidate 1"><![CDATA[You must be a super administrator to edit this user.]]></phrase>
-  <phrase title="you_must_enable_two_step_access_control_panel" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[You must enable <a href="{link}" target="_blank">two-step verification</a> to access the control panel.]]></phrase>
+  <phrase title="you_must_enable_two_step_access_control_panel" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Musisz włączyć <a href="{link}" target="_blank">weryfikację dwuetapową</a> aby uzyskać dostęp do panelu administracyjnego.]]></phrase>
+  <phrase title="you_must_enable_two_step_to_continue" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Musisz włączyć <b><a href="{link}">weryfikację dwuetapową</a></b> aby kontynuować.<br />
+<br />
+Weryfikacja dwuetapowa zwiększa bezpieczeństwo Twojego konta, wymagając podania dodatkowego kodu do zakończenia procesu logowania. Jeśli Twoje hasło będzie kiedykolwiek zagrożone, weryfikacja ta pomoże zapobiec nieautoryzowanemu dostępowi do Twojego konta.]]></phrase>
   <phrase title="you_must_enter_at_least_one_non_wildcard_character" addon_id="XF" version_id="0" version_string=""><![CDATA[You must enter at least one non-wildcard character.]]></phrase>
   <phrase title="you_must_enter_email_message_to_enable_welcome_email" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[You must enter an email message to enable the welcome email.]]></phrase>
   <phrase title="you_must_enter_your_current_password_to_validate_this_request" addon_id="XF" version_id="1010035" version_string="1.1.0 Beta 5"><![CDATA[You must enter your current password to validate this request.]]></phrase>
@@ -3207,7 +3219,7 @@ The login was requested via the IP {ip}. If you did not initiate this request, y
   <phrase title="you_not_watching_any_forums" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Nie obserwujesz żadnego forum]]></phrase>
   <phrase title="you_not_watching_any_threads" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Nie obserwujesz żadnych tematów.]]></phrase>
   <phrase title="you_should_only_enter_route_part_of_url_here_example" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[You should only enter the route part of the URL here. For example, if you want to change the URL {fullUrl}, you should only enter {route}.]]></phrase>
-  <phrase title="you_sure_you_want_disable_two_step" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Are you sure you want to disable the two-step verification?]]></phrase>
+  <phrase title="you_sure_you_want_disable_two_step" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Jesteś pewien, że chcesz wyłączyć weryfikację dwuetapową?]]></phrase>
   <phrase title="you_sure_you_want_disable_two_step_x" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Are you sure you want to disable the two-step verification method '{title}'?]]></phrase>
   <phrase title="you_sure_you_want_to_copy_x_posts_to_new_thread" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Czy na pewno chcesz skopiować {count} post (ów) do nowego wątku?]]></phrase>
   <phrase title="you_sure_you_want_to_delete_x_posts" addon_id="XF" version_id="1040370" version_string="1.4.3"><![CDATA[Czy na pewno chcesz usunąć {count} post(ów)?]]></phrase>
